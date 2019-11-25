@@ -1,4 +1,4 @@
-public class snake {
+public class lion {
 	
 	private String name;
 	private int x;
@@ -7,10 +7,10 @@ public class snake {
 	private int z;
 
 
-	public snake(String snakeName, int code, String snakeDescript, double price, int count) {
-		name = snakeName;
+	public lion(String lionName, int code, String lionDescript, double price, int count) {
+		name = lionName;
 		x = code;
-		descript = snakeDescript;
+		descript = lionDescript;
 		y = price;
 		z = count;
 	
@@ -68,24 +68,24 @@ public class snake {
 		
 }
 
-snakeMain.java
+lionMain.java
 
-public class snakeMain {
+public class lionMain {
 
 	public static void main(String[] args) {
 		
-		snake anaconda = new snake("Anaconda", 5678, "This is a large, green snake.", 24.00, 82);
-		snake python = new snake("Python", 7623, "This is a reticulated snake.", 36.00, 99);
+		lion african  = new lion("African", 5678, "This is a large, tawny yellow lion.", 24.00, 82);
+		lion Asian = new lion("Asian", 7623, "This is a reticulated lion.", 36.00, 99);
 		
-		System.out.println(anaconda.toString());
-		System.out.println("Product Code: SNK" + anaconda.getX());
-		System.out.println("Price: " + anaconda.getPriceFormatted());
-		System.out.println("Count: " + anaconda.getZ() + " Available");
+		System.out.println(african.toString());
+		System.out.println("Product Code: LN" + african.getX());
+		System.out.println("Price: " + african.getPriceFormatted());
+		System.out.println("Count: " + african.getZ() + " Available");
 		System.out.println();
-		System.out.println(python.toString());
-		System.out.println("Product Code: SNK" + python.getX());
-		System.out.println("Price: " + python.getPriceFormatted());
-		System.out.println("Count: " + python.getZ() + " Available");
+		System.out.println(asian.toString());
+		System.out.println("Product Code: LN" + asian.getX());
+		System.out.println("Price: " + asian.getPriceFormatted());
+		System.out.println("Count: " + asian.getZ() + " Available");
 		
 		
 	}
